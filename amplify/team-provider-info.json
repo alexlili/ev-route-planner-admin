@@ -1,0 +1,15 @@
+{
+  "main": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-evrouteplannerapi-main-7016a-authRole",
+      "UnauthRoleArn": "arn:aws:iam::471112516887:role/amplify-evrouteplannerapi-main-7016a-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::471112516887:role/amplify-evrouteplannerapi-main-7016a-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-evrouteplannerapi-main-7016a-deployment",
+      "UnauthRoleName": "amplify-evrouteplannerapi-main-7016a-unauthRole",
+      "StackName": "amplify-evrouteplannerapi-main-7016a",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:471112516887:stack/amplify-evrouteplannerapi-main-7016a/475f0090-2922-11ef-97c7-0a314c0c2f79",
+      "AmplifyAppId": "d3nerbjsna0x1t"
+    }
+  }
+}
