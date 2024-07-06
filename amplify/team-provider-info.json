@@ -1,14 +1,14 @@
 {
-  "main": {
+  "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-evrouteplannerapi-main-7016a-authRole",
-      "UnauthRoleArn": "arn:aws:iam::471112516887:role/amplify-evrouteplannerapi-main-7016a-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::471112516887:role/amplify-evrouteplannerapi-main-7016a-authRole",
+      "AuthRoleName": "amplify-evrouteplannerclient-dev-20137-authRole",
+      "UnauthRoleArn": "arn:aws:iam::471112516887:role/amplify-evrouteplannerclient-dev-20137-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::471112516887:role/amplify-evrouteplannerclient-dev-20137-authRole",
       "Region": "ap-southeast-2",
-      "DeploymentBucketName": "amplify-evrouteplannerapi-main-7016a-deployment",
-      "UnauthRoleName": "amplify-evrouteplannerapi-main-7016a-unauthRole",
-      "StackName": "amplify-evrouteplannerapi-main-7016a",
-      "StackId": "arn:aws:cloudformation:ap-southeast-2:471112516887:stack/amplify-evrouteplannerapi-main-7016a/475f0090-2922-11ef-97c7-0a314c0c2f79",
+      "DeploymentBucketName": "amplify-evrouteplannerclient-dev-20137-deployment",
+      "UnauthRoleName": "amplify-evrouteplannerclient-dev-20137-unauthRole",
+      "StackName": "amplify-evrouteplannerclient-dev-20137",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:471112516887:stack/amplify-evrouteplannerclient-dev-20137/49754d20-28c4-11ef-8f51-064cf9230405",
       "AmplifyAppId": "d3nerbjsna0x1t"
     }
   }
