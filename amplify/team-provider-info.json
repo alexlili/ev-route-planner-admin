@@ -10,6 +10,11 @@
       "StackName": "amplify-evrouteplannerclient-dev-20137",
       "StackId": "arn:aws:cloudformation:ap-southeast-2:471112516887:stack/amplify-evrouteplannerclient-dev-20137/49754d20-28c4-11ef-8f51-064cf9230405",
       "AmplifyAppId": "d3nerbjsna0x1t"
+    },
+    "categories": {
+      "auth": {
+        "evrouteplannerapi": {}
+      }
     }
   }
 }

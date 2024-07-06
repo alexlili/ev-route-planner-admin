@@ -1,0 +1,26 @@
+type ClickChargerList @model @auth(rules: [{allow: public}, {allow: private, operations: [create]}]) {
+  id: ID!
+  uuid: String
+  addressInfo: AWSJSON
+}
+
+type SearchLoactionList @model @auth(rules: [{allow: public}, {allow: private, operations: [create]}]) {
+  id: ID!
+  addressInfo: AWSJSON
+}
+
+type FavouriteChargerList @model @auth(rules: [{allow: public}, {allow: private}, {allow: private, provider: identityPool}]) {
+  id: ID!
+  addressInfo: AWSJSON
+  userId: ID
+}
+
+type CarList @model @auth(rules: [{allow: public}, {allow: private}, {allow: private, provider: identityPool}]) {
+  id: ID!
+  name: String
+  portType: String
+  brand: String
+  range: String
+  userId: ID
+}
+ 
