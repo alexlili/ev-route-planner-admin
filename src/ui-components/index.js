@@ -4,8 +4,6 @@
  * Any changes to this file will be overwritten when running amplify pull. *
  **************************************************************************/
 
-export { default as CarListCreateForm } from "./CarListCreateForm";
-export { default as CarListUpdateForm } from "./CarListUpdateForm";
 export { default as ClickChargerListCreateForm } from "./ClickChargerListCreateForm";
 export { default as ClickChargerListUpdateForm } from "./ClickChargerListUpdateForm";
 export { default as FavouriteChargerListCreateForm } from "./FavouriteChargerListCreateForm";

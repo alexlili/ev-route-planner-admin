@@ -14,13 +14,4 @@ type FavouriteChargerList @model @auth(rules: [{allow: public}, {allow: private}
   addressInfo: AWSJSON
   userId: ID
 }
-
-type CarList @model @auth(rules: [{allow: public}, {allow: private}, {allow: private, provider: identityPool}]) {
-  id: ID!
-  name: String
-  portType: String
-  brand: String
-  range: String
-  userId: ID
-}
  
