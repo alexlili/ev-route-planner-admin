@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import { HomeOutlined, LogoutOutlined } from "@ant-design/icons";
+import { HomeOutlined, FundOutlined,LogoutOutlined,DotChartOutlined,BarChartOutlined,AreaChartOutlined } from "@ant-design/icons";
 import { Layout, Menu, theme, Breadcrumb, Image } from "antd";
 import chargerIcon from "./assets/charging-station.png";
 import "./App.css";
@@ -17,22 +17,22 @@ const menuItems = [
   {
     label: "userFavouriteCharger",
     key: "/userFavouriteCharger",
-    icon: <HomeOutlined />,
+    icon: <AreaChartOutlined />,
   },
   {
     label: "clickChargesTimes",
     key: "/clickChargesTimes",
-    icon: <HomeOutlined />,
+    icon: <BarChartOutlined />,
   },
   {
     label: "searchLocation",
     key: "/searchLocation",
-    icon: <HomeOutlined />,
+    icon: <FundOutlined />,
   },
   {
     label: "userCarList",
     key: "/userCarList",
-    icon: <HomeOutlined />,
+    icon: <DotChartOutlined />,
   },
 ];
 const App = () => {
@@ -73,7 +73,7 @@ const App = () => {
             color: "white",
           }}
         >
-          <Image height={30} src={chargerIcon} style={{paddingRight:10}}/> Admin
+          <Image height={30} src={chargerIcon} style={{paddingRight:10}}/>EV Charger Admin
         </div>
         <Menu
           defaultSelectedKeys={"topNews"}
@@ -153,6 +153,8 @@ const App = () => {
         <Footer
           style={{
             textAlign: "center",
+            // height:20,
+            padding:5
           }}
         >
           EV Charger Admin ©{new Date().getFullYear()} Created by Yoobee MSE

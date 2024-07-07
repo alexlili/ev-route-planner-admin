@@ -524,6 +524,7 @@ const Index = () => {
           </div>
         }
         bordered={true}
+        style={{marginBottom:20}}
       >
         {data.length && <MapChart jsonData={data} />}
         {data.length && <DataAnalysis jsonData={data} />}
@@ -536,6 +537,7 @@ const Index = () => {
           </div>
         }
         bordered={true}
+        style={{marginBottom:20}}
       >
         {listClickChargerListsData.length && (
           <MapClickChargesChart jsonData={listClickChargerListsData} />
@@ -549,6 +551,7 @@ const Index = () => {
           </div>
         }
         bordered={true}
+        style={{marginBottom:20}}
       >
         {listUserCarListsData.length && (
           <MapUserCarChart jsonData={listUserCarListsData} />
