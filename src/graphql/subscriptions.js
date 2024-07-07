@@ -1,6 +1,54 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
+export const onCreateUserCarList = /* GraphQL */ `
+  subscription OnCreateUserCarList(
+    $filter: ModelSubscriptionUserCarListFilterInput
+  ) {
+    onCreateUserCarList(filter: $filter) {
+      id
+      portType
+      brand
+      name
+      range
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`;
+export const onUpdateUserCarList = /* GraphQL */ `
+  subscription OnUpdateUserCarList(
+    $filter: ModelSubscriptionUserCarListFilterInput
+  ) {
+    onUpdateUserCarList(filter: $filter) {
+      id
+      portType
+      brand
+      name
+      range
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`;
+export const onDeleteUserCarList = /* GraphQL */ `
+  subscription OnDeleteUserCarList(
+    $filter: ModelSubscriptionUserCarListFilterInput
+  ) {
+    onDeleteUserCarList(filter: $filter) {
+      id
+      portType
+      brand
+      name
+      range
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`;
 export const onCreateClickChargerList = /* GraphQL */ `
   subscription OnCreateClickChargerList(
     $filter: ModelSubscriptionClickChargerListFilterInput
@@ -117,51 +165,6 @@ export const onDeleteFavouriteChargerList = /* GraphQL */ `
     onDeleteFavouriteChargerList(filter: $filter) {
       id
       addressInfo
-      userId
-      createdAt
-      updatedAt
-      __typename
-    }
-  }
-`;
-export const onCreateCarList = /* GraphQL */ `
-  subscription OnCreateCarList($filter: ModelSubscriptionCarListFilterInput) {
-    onCreateCarList(filter: $filter) {
-      id
-      name
-      portType
-      brand
-      range
-      userId
-      createdAt
-      updatedAt
-      __typename
-    }
-  }
-`;
-export const onUpdateCarList = /* GraphQL */ `
-  subscription OnUpdateCarList($filter: ModelSubscriptionCarListFilterInput) {
-    onUpdateCarList(filter: $filter) {
-      id
-      name
-      portType
-      brand
-      range
-      userId
-      createdAt
-      updatedAt
-      __typename
-    }
-  }
-`;
-export const onDeleteCarList = /* GraphQL */ `
-  subscription OnDeleteCarList($filter: ModelSubscriptionCarListFilterInput) {
-    onDeleteCarList(filter: $filter) {
-      id
-      name
-      portType
-      brand
-      range
       userId
       createdAt
       updatedAt

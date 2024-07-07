@@ -1,6 +1,42 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
+export const getUserCarList = /* GraphQL */ `
+  query GetUserCarList($id: ID!) {
+    getUserCarList(id: $id) {
+      id
+      portType
+      brand
+      name
+      range
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`;
+export const listUserCarLists = /* GraphQL */ `
+  query ListUserCarLists(
+    $filter: ModelUserCarListFilterInput
+    $limit: Int
+    $nextToken: String
+  ) {
+    listUserCarLists(filter: $filter, limit: $limit, nextToken: $nextToken) {
+      items {
+        id
+        portType
+        brand
+        name
+        range
+        createdAt
+        updatedAt
+        __typename
+      }
+      nextToken
+      __typename
+    }
+  }
+`;
 export const getClickChargerList = /* GraphQL */ `
   query GetClickChargerList($id: ID!) {
     getClickChargerList(id: $id) {
@@ -97,44 +133,6 @@ export const listFavouriteChargerLists = /* GraphQL */ `
       items {
         id
         addressInfo
-        userId
-        createdAt
-        updatedAt
-        __typename
-      }
-      nextToken
-      __typename
-    }
-  }
-`;
-export const getCarList = /* GraphQL */ `
-  query GetCarList($id: ID!) {
-    getCarList(id: $id) {
-      id
-      name
-      portType
-      brand
-      range
-      userId
-      createdAt
-      updatedAt
-      __typename
-    }
-  }
-`;
-export const listCarLists = /* GraphQL */ `
-  query ListCarLists(
-    $filter: ModelCarListFilterInput
-    $limit: Int
-    $nextToken: String
-  ) {
-    listCarLists(filter: $filter, limit: $limit, nextToken: $nextToken) {
-      items {
-        id
-        name
-        portType
-        brand
-        range
         userId
         createdAt
         updatedAt

@@ -10,4 +10,6 @@ export { default as FavouriteChargerListCreateForm } from "./FavouriteChargerLis
 export { default as FavouriteChargerListUpdateForm } from "./FavouriteChargerListUpdateForm";
 export { default as SearchLoactionListCreateForm } from "./SearchLoactionListCreateForm";
 export { default as SearchLoactionListUpdateForm } from "./SearchLoactionListUpdateForm";
+export { default as UserCarListCreateForm } from "./UserCarListCreateForm";
+export { default as UserCarListUpdateForm } from "./UserCarListUpdateForm";
 export { default as studioTheme } from "./studioTheme";

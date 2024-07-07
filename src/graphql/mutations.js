@@ -1,6 +1,57 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
+export const createUserCarList = /* GraphQL */ `
+  mutation CreateUserCarList(
+    $input: CreateUserCarListInput!
+    $condition: ModelUserCarListConditionInput
+  ) {
+    createUserCarList(input: $input, condition: $condition) {
+      id
+      portType
+      brand
+      name
+      range
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`;
+export const updateUserCarList = /* GraphQL */ `
+  mutation UpdateUserCarList(
+    $input: UpdateUserCarListInput!
+    $condition: ModelUserCarListConditionInput
+  ) {
+    updateUserCarList(input: $input, condition: $condition) {
+      id
+      portType
+      brand
+      name
+      range
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`;
+export const deleteUserCarList = /* GraphQL */ `
+  mutation DeleteUserCarList(
+    $input: DeleteUserCarListInput!
+    $condition: ModelUserCarListConditionInput
+  ) {
+    deleteUserCarList(input: $input, condition: $condition) {
+      id
+      portType
+      brand
+      name
+      range
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`;
 export const createClickChargerList = /* GraphQL */ `
   mutation CreateClickChargerList(
     $input: CreateClickChargerListInput!
@@ -126,60 +177,6 @@ export const deleteFavouriteChargerList = /* GraphQL */ `
     deleteFavouriteChargerList(input: $input, condition: $condition) {
       id
       addressInfo
-      userId
-      createdAt
-      updatedAt
-      __typename
-    }
-  }
-`;
-export const createCarList = /* GraphQL */ `
-  mutation CreateCarList(
-    $input: CreateCarListInput!
-    $condition: ModelCarListConditionInput
-  ) {
-    createCarList(input: $input, condition: $condition) {
-      id
-      name
-      portType
-      brand
-      range
-      userId
-      createdAt
-      updatedAt
-      __typename
-    }
-  }
-`;
-export const updateCarList = /* GraphQL */ `
-  mutation UpdateCarList(
-    $input: UpdateCarListInput!
-    $condition: ModelCarListConditionInput
-  ) {
-    updateCarList(input: $input, condition: $condition) {
-      id
-      name
-      portType
-      brand
-      range
-      userId
-      createdAt
-      updatedAt
-      __typename
-    }
-  }
-`;
-export const deleteCarList = /* GraphQL */ `
-  mutation DeleteCarList(
-    $input: DeleteCarListInput!
-    $condition: ModelCarListConditionInput
-  ) {
-    deleteCarList(input: $input, condition: $condition) {
-      id
-      name
-      portType
-      brand
-      range
       userId
       createdAt
       updatedAt

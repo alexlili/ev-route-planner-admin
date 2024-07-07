@@ -11,8 +11,8 @@ const Index = () => {
 
     const columns = [
         {
-            title: 'uuid',
-            dataIndex: 'uuid',
+            title: 'id',
+            dataIndex: 'id',
             width: '25%',
             editable: false,
         },
